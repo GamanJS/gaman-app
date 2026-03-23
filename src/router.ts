@@ -16,9 +16,9 @@
  * ==========================================================================
  */
 
-import { autoComposeRoutes } from '@gaman/core';
-import AppController from '../controllers/AppController';
+import { composeRouter } from 'gaman/compose';
+import AppController from './module/controllers/AppController';
 
-export default autoComposeRoutes((r) => {
+export default composeRouter((r) => {
 	r.get('/', [AppController, 'HelloWorld']);
 });

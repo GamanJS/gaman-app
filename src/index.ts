@@ -17,12 +17,8 @@
  * ==========================================================================
  */
 
-import { defineBootstrap } from '@gaman/core';
-import { TextFormat } from '@gaman/common';
+import { defineBootstrap } from 'gaman';
 
 defineBootstrap(async (app) => {
-	await app.mountServer(':3431');
-	Log.info(
-		`Server is running at ${TextFormat.UNDERLINE}http://localhost:3431${TextFormat.RESET}`,
-	);
+	app.mountServer({ http: 3431 });
 });

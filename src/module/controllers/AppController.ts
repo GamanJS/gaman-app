@@ -18,10 +18,10 @@
  * ==========================================================================
  */
 
-import { composeController } from '@gaman/core';
+import { composeController } from 'gaman/compose';
 
 export default composeController(() => ({
 	HelloWorld(ctx) {
-		return Res.json({ message: '❤️ Welcome to GamanJS' });
+		return Res.send({ message: '❤️ Welcome to GamanJS' });
 	},
 }));
