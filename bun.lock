@@ -5,7 +5,7 @@
     "": {
       "name": "gaman-app",
       "dependencies": {
-        "gaman": "^2.0.2",
+        "gaman": "^2.1.1",
       },
       "devDependencies": {
         "@types/bun": "^1.3.11",
@@ -24,7 +24,7 @@
 
     "bun-types": ["bun-types@1.3.11", "", { "dependencies": { "@types/node": "*" } }, "sha512-1KGPpoxQWl9f6wcZh57LvrPIInQMn2TQ7jsgxqpRzg+l0QPOFvJVH7HmvHo/AiPgwXy+/Thf6Ov3EdVn1vOabg=="],
 
-    "gaman": ["gaman@2.0.2", "", { "peerDependencies": { "@gaman/michi": "^0.1.2" } }, "sha512-mM8JS+5DurQh9Wa/LxQUyUKzkBZrFYYr6B8YaTD6kc3+mw6WsbFyWAVq7HmD+TLCY6rWh6/5QBm9BcmKQE4bxw=="],
+    "gaman": ["gaman@2.1.1", "", { "peerDependencies": { "@gaman/michi": "^0.1.3" } }, "sha512-14DbhclYzyHZMWz0nxsRrC06ZtT2MUsKzb4kfD7NJR0h/V9NJKXv+F+1V7FQHYUzaSggpakbmAkNUU+KukGAEw=="],
 
     "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
