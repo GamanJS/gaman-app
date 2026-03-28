@@ -18,10 +18,12 @@
  */
 
 import { defineBootstrap } from 'gaman';
-import AppRouter from './module/app/AppRouter';
+import AppRouter from './modules/app/AppRouter';
+import BlogRouter from './modules/blog/BlogRouter';
 
 defineBootstrap(async (app) => {
 	app.mount(AppRouter); // ? register router module
+	app.mount(BlogRouter);
 
 	app.mountServer({ http: 3431 });
 });
